@@ -65,7 +65,7 @@ resource "google_service_account_iam_member" "deployer_act_as_runtime" {
 
 # 5. Firewall for Jenkins Port 8080
 resource "google_compute_firewall" "jenkins_http" {
-  name    = "allow-jenkins-8080"
+  name    = "allow-jenkins-webapp-8080"
   network = "default"
 
   allow {

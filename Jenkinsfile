@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID   = 'YOUR_PROJECT_ID'
+        PROJECT_ID   = 'sa-testing-515015'
         REGION       = 'asia-south1'
         REPO_NAME    = 'webapp-repo'
         SERVICE_NAME = 'java-demo-webapp'
